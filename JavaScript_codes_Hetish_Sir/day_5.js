@@ -23,3 +23,4 @@ let state = null
 console.log(typeof(age))
 console.log(typeof(null)) //typeof is object fir interview
 console.log(typeof(undifine)) // type of is undifine
+console.log(typeof("Antriksh"))
