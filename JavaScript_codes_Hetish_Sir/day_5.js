@@ -15,12 +15,12 @@ let state = null
 // string => "" write double court 
 // boolen => true/false 
 // null => standlone value and this is a object
-// undifine => value is not assigin
+// undefine => value is not assigin
 // symbol => unique
 
 // object
 
 console.log(typeof(age))
-console.log(typeof(null)) //typeof is object fir interview
-console.log(typeof(undifine)) // type of is undifine
+console.log(typeof(null)) //typeof is object -> for interview Question
+console.log(typeof(undefine)) // type of is undifine
 console.log(typeof("Antriksh"))
