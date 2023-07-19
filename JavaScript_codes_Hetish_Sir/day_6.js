@@ -1,12 +1,12 @@
 //  converstion of data type
 
-// let score = true
-// console.log(typeof score)
-// console.log(typeof(score))
+let score = true
+console.log(typeof score)
+console.log(typeof(score))
 
-// let valueInNumber = Number(score)
-// console.log(typeof(valueInNumber))
-// console.log(valueInNumber)
+let valueInNumber = Number(score)
+console.log(typeof(valueInNumber))
+console.log(valueInNumber)
 
 
 /*
@@ -15,10 +15,10 @@
 true =>1 / false => 0
 */
 
-// let isloggedIn = "Aman"
+let isloggedIn = "Aman"
 
-// let boolenIsLoggedIn = Boolean(isloggedIn)
-// console.log(boolenIsLoggedIn)
+let boolenIsLoggedIn = Boolean(isloggedIn)
+console.log(boolenIsLoggedIn)
 
 /*
 1 => true; 0=. false
