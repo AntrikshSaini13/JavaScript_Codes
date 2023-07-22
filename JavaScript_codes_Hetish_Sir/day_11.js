@@ -260,7 +260,7 @@ const url = "https://hitest.com/hitesh%20choudary"
 
 console.log(url.replace('%20', '-')) //replace the url any value in this method
 
-console.log(url.includes('aman')) // check here these keyword is here or not
+console.log(url.includes('hitesh')) // check here these keyword is here or not
 
 const str = 'The quick brown fox jumps over the lazy dog.';
 
@@ -276,4 +276,17 @@ const strCopy = str.split();
 console.log(strCopy);
 // Expected output: Array ["The quick brown fox jumps over the lazy dog."]
 
+
+const strCopy1 = str.split(' ');
+console.log(strCopy1);
+
 console.log(gameName.split('-'));
+
+const a = new String("Hello world"); // a === "Hello world" is false
+const b = String("Hello world"); // b === "Hello world" is true
+console.log(a)
+console.log(b)
+a instanceof String; // is true
+b instanceof String; // is false
+typeof a; // "object"
+typeof b; // "string"
