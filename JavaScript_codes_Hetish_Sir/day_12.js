@@ -57,7 +57,7 @@ console.log(Math.max(6, 5, 9, 4, 1))
 // output =>9
 
 
-console.log((Math.random()*10) + 1)
+console.log(typeof((Math.random()*10) + 1))
 
 // important rule
 
